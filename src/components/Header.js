@@ -14,12 +14,13 @@ function Header() {
         {/* p-padding py- padding in y-axis  */}
         <div className="mt-2 flex items-center flex-grow sm:flex-grow-0 mr-2">
           {/* sm:flex-grow-0: whenever the div gets passed the mobile view then it shouldn't grow*/}
-          <Image
+          <img
             src="https://links.papareact.com/f90"
             width={150}
             height={40}
             style={{ objectFit: "contain" }}
             className="cursor-pointer"
+            alt="amazon-logo"
           />
         </div>
         {/* Search */}
